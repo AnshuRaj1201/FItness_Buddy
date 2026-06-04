@@ -49,25 +49,24 @@
   <footer>&copy; 2026 Fitness Buddy &nbsp;|&nbsp; IBM watsonx.ai &amp; watsonx Orchestrate</footer>
 
   <script>
-    // ── CLEAN CONFIG — no onLoad, no identityTokenProvider ──
-    window.wxOConfiguration = {
-      orchestrationID: "444ed28d8c43486382b8fa95ea70a501_e53a3471-f734-4d2b-831c-986cc71aa83b",
-      hostURL: "https://au-syd.watson-orchestrate.cloud.ibm.com",
-      rootElementID: "root",
-      deploymentPlatform: "ibmcloud",
-      crn: "crn:v1:bluemix:public:watsonx-orchestrate:au-syd:a/444ed28d8c43486382b8fa95ea70a501:e53a3471-f734-4d2b-831c-986cc71aa83b::",
-      chatOptions: {
-        agentId: "9a497dbc-e774-4f20-a072-4c826379a0c0",
-        agentEnvironmentId: "7cd6d119-810c-4ef0-9036-92768512f6ca"
-      }
-    };
-
-    setTimeout(function(){
-      var s = document.createElement('script');
-      s.src = window.wxOConfiguration.hostURL + '/wxochat/wxoLoader.js?embed=true';
-      s.onload = function(){ wxoLoader.init(); };
-      document.head.appendChild(s);
-    }, 0);
-  </script>
+  window.wxOConfiguration = {
+    orchestrationID: "bb115804b98f4542b272843ed05f419e_1864ef1d-9629-4fc6-bfbb-23383c3a3e3e",
+    hostURL: "https://au-syd.watson-orchestrate.cloud.ibm.com",
+    rootElementID: "root",
+    deploymentPlatform: "ibmcloud",
+    crn: "crn:v1:bluemix:public:watsonx-orchestrate:au-syd:a/bb115804b98f4542b272843ed05f419e:1864ef1d-9629-4fc6-bfbb-23383c3a3e3e::",
+    chatOptions: {
+        agentId: "f857d276-e3b9-4af8-bc45-00af12959e5c", 
+    }
+  };
+  setTimeout(function () {
+    const script = document.createElement('script');
+    script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+    script.addEventListener('load', function () {
+        wxoLoader.init();
+    });
+    document.head.appendChild(script);
+  }, 0);                     
+</script>
 </body>
 </html>
