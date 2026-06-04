@@ -583,8 +583,8 @@ Apache License — Free to use, modify, and distribute with attribution.
 
 **Ashish Raj** — Agentic AI Developer
 
-[![GitHub](https://img.shields.io/badge/GitHub-Ashish_Raj-181717?style=for-the-badge&logo=github)](https://github.com/ashishraj-hub)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)]([[https://linkedin.com/in/ashish-raj-ashishraj/])
+[![GitHub](https://img.shields.io/badge/GitHub-Anshu_Raj-181717?style=for-the-badge&logo=github)](https://github.com/AnshuRaj1201/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)]([[https://www.linkedin.com/in/anshuraj1201/])
 
 *Built with ❤️ as part of the IBM Agentic AI Challenge*
 
@@ -605,7 +605,7 @@ Apache License — Free to use, modify, and distribute with attribution.
 
 **⭐ If this project helped you, please give it a star! It motivates continued development.**
 
-[![Star History](https://img.shields.io/github/stars/ashishraj-hub/Fitness_Buddy?style=social)](https://github.com/ashishraj-hub/Fitness_Buddy)
+[![Star History](https://img.shields.io/github/stars/ashishraj-hub/Fitness_Buddy?style=social)](https://github.com/AnshuRaj1201/Fitness_Buddy)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer" width="100%"/>
 
